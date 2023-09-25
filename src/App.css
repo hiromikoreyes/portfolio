@@ -6,7 +6,14 @@ body{
   background-position: center;
 }
 
+#canvas-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 canvas{
-  margin-top: 10rem;
-  height: 500px;
+  background: none;
+  height: 600px;
+
 }
