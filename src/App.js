@@ -11,25 +11,27 @@ function App() {
         <Navbar/>
         <DescriptionBox/>
         <div id="canvas-container">
-          <Canvas className="canvas">
-            <OrbitControls enableZoom={false} autoRotate={1} autoRotateSpeed={-2}></OrbitControls>
-            <ambientLight intensity={0.9}></ambientLight>
-            <directionalLight position={[-2,5,2]} intensity={1}></directionalLight>
-            <Box />
-          </Canvas>
-          <Canvas className="canvas">
-            <OrbitControls enableZoom={false} autoRotate={1}></OrbitControls>
-            <ambientLight intensity={0.9}></ambientLight>
-            <directionalLight position={[-2,5,2]} intensity={1}></directionalLight>
-            <Box />
-          </Canvas>
-          <Canvas className="canvas">
-            <OrbitControls enableZoom={false} autoRotate={1}></OrbitControls>
-            <ambientLight intensity={0.9}></ambientLight>
-            <directionalLight position={[-2,5,2]} intensity={1}></directionalLight>
-            <Box />
-          </Canvas>
+            <div>
+            <Canvas flat className="canvas">
+              <OrbitControls enableZoom={false} autoRotate={1} autoRotateSpeed={-2}></OrbitControls>
+              <ambientLight intensity={0.9}></ambientLight>
+              <directionalLight position={[-2,5,2]} intensity={1}></directionalLight>
+              <Box />
+            </Canvas>
+            <Canvas flat className="canvas">
+              <OrbitControls enableZoom={false} autoRotate={1}></OrbitControls>
+              <ambientLight intensity={0.9}></ambientLight>
+              <Box />
+            </Canvas>
+            <Canvas flat className="canvas">
+              <OrbitControls enableZoom={false} autoRotate={1}></OrbitControls>
+              <ambientLight intensity={0.9}></ambientLight>
+              <Box />
+            </Canvas>
+            </div>
         </div>
+
+
     </div>
   );
 }

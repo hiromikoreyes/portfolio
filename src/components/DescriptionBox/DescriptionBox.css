@@ -4,21 +4,48 @@
     font-size: xx-large;
     background-color: rgba(2, 107, 30, 0.9);
     padding: 40px;
-    width: 400px;
-    border: 2px dotted;
+    width: 720px;
     font-size: x-large;
+    animation: fadeIn 2s;
+    border-radius: 32px;
+    box-shadow: 5px 10px #0a8634;
+}
+
+.title-container p{
+    font-size: 100px;
 }
 
 .body-container{
-    color: white;
-    background-color: black;
+    color: rgba(2, 107, 30, 0.9);
+    background-color: white;
     text-align: center;
 }
 
 .super-container{
-    margin-top: 10rem;
+    margin-top: 13rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0%; 
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+/* BREAK POINT */
+@media(max-width: 768px){
+    .title-container{
+        width: 100%;
+        font-size: large;
+    }
+
+    .title-container p{
+        font-size: 50px;
+    }
 }

@@ -7,11 +7,11 @@ function DescriptionBox() {
   return (
     <div class="super-container">
       <div class="title-container">
-          HI I'M MIKO, THIS WEBSITE IS A WORK IN PROGRESS, HERE ARE SHAPES YOU CAN PLAY WITH FOR NOW
+          <p>Miko Reyes</p>
+          2ND YEAR CS & MUSIC @ UTSC
       </div>
 
       <div class="body-container">
-          This is a subtitle
       </div>
     </div>
   );
