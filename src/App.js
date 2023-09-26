@@ -4,12 +4,14 @@ import Box from './components/Box/Box';
 import DescriptionBox from './components/DescriptionBox/DescriptionBox'
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
+import SkipArrow from './components/SkipArrow/skiparrow';
 
 function App() {
   return (
     <div className="App"> 
         <Navbar/>
         <DescriptionBox/>
+        <SkipArrow/>
         <div id="canvas-container">
             <div>
             <Canvas flat className="canvas">
