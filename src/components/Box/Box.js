@@ -4,9 +4,9 @@ import { PlaneGeometry } from "three";
 
 export default function Box(){
     return (
-        <mesh rotation={[90,0,20]}>
+        <mesh rotation={[100,0,20]}>
             <boxGeometry attach="geometry"></boxGeometry>
-            <meshLambertMaterial attach="material" color="lime"></meshLambertMaterial>
+            <meshLambertMaterial attach="material" color="green"></meshLambertMaterial>
         </mesh>
     );
 }
