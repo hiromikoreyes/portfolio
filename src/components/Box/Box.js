@@ -1,8 +1,6 @@
 import React from "react";
-import { PlaneGeometry } from "three";
 
-
-export default function Box(){
+function Box(){
     return (
         <mesh rotation={[100,0,20]}>
             <boxGeometry attach="geometry"></boxGeometry>
@@ -10,3 +8,5 @@ export default function Box(){
         </mesh>
     );
 }
+
+export default Box;

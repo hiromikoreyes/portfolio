@@ -1,8 +1,30 @@
-#arrow-container{
-    margin-top: 1in;
-    height: 200px;
+.arrow-container{
     width:100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
-    background-color: red;
+}
+
+.text-above-arrow{
+
+    font-size: medium;
+    font-weight: 500;
+    color:white;  
+    
+    background-color: rgba(2, 107, 30, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+
+#down-arrow{
+    margin-top: -10px;
+    border-radius: 50%;
+    padding: 10px;
+    background: rgba(1, 68, 19, 0.9);
+    cursor: pointer;
 }

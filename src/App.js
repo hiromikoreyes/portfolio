@@ -11,27 +11,36 @@ function App() {
     <div className="App"> 
         <Navbar/>
         <DescriptionBox/>
-        <SkipArrow/>
+        
         <div id="canvas-container">
             <div>
-            <Canvas flat className="canvas">
-              <OrbitControls enableZoom={false} autoRotate={1} autoRotateSpeed={-2}></OrbitControls>
+            <Canvas flat camera={{ fov: 35, position: [0, 5, 0]}} className="canvas">
+              <OrbitControls enableZoom={false} enablePan={false} autoRotate={true} autoRotateSpeed={-2}></OrbitControls>
               <ambientLight intensity={0.9}></ambientLight>
               <directionalLight position={[-2,5,2]} intensity={1}></directionalLight>
               <Box />
             </Canvas>
-            <Canvas flat className="canvas">
-              <OrbitControls enableZoom={false} autoRotate={1}></OrbitControls>
+
+            <Canvas flat camera={{ fov: 35, position: [0, 5, 0]}} className="canvas">
+              <OrbitControls enableZoom={false} enablePan={false} autoRotate={true} autoRotateSpeed={-2}></OrbitControls>
               <ambientLight intensity={0.9}></ambientLight>
+              <directionalLight position={[-2,5,2]} intensity={1}></directionalLight>
               <Box />
             </Canvas>
-            <Canvas flat className="canvas">
-              <OrbitControls enableZoom={false} autoRotate={1}></OrbitControls>
+
+            <Canvas flat camera={{ fov: 35, position: [0, 5, 0]}} className="canvas">
+              <OrbitControls enableZoom={false} enablePan={false} autoRotate={true} autoRotateSpeed={-2}></OrbitControls>
               <ambientLight intensity={0.9}></ambientLight>
+              <directionalLight position={[-2,5,2]} intensity={1}></directionalLight>
               <Box />
             </Canvas>
+
             </div>
         </div>
+
+
+        <SkipArrow/>
+
 
 
     </div>

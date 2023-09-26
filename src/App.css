@@ -5,7 +5,9 @@ body{
   background-size: cover;
   background-position: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
+
 
 #canvas-container{
   display: flex;
@@ -19,6 +21,26 @@ body{
 
 canvas{
   background: none;
-  height: 500px;
-  width: 110px;
+  height: 200px;
+  width: 130px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  width: 1px;
+  background: #0f903a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #096126;
 }

@@ -8,7 +8,7 @@ function DescriptionBox() {
     <div class="super-container">
       <div class="title-container">
           <p>Miko Reyes</p>
-          2ND YEAR CS & MUSIC @ UTSC
+          2ND YEAR CS @ UTSC
       </div>
 
       <div class="body-container">
