@@ -27,4 +27,13 @@
     padding: 10px;
     background: rgba(1, 68, 19, 0.9);
     cursor: pointer;
+
+    animation: blinker 3s linear infinite;
+
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.5;
+    }
 }

@@ -7,7 +7,7 @@ function Navbar() {
     <header class="header">
 
         
-        <a href="#" class="logo">miko's portfolio</a>
+        <a href="#" class="logo">my portfolio</a>
     
         <input type="checkbox" id="check"></input>
         <label for="check" class="icons">
@@ -24,11 +24,11 @@ function Navbar() {
         </label>
 
         <nav class="navbar">
-            <a href="#">home</a>
+            <a href="#">about</a>
             <a href="#">code</a>
             <a href="#">music</a>
             <a href="#">contact</a>
-            <a href="#">munky</a>
+
         </nav>
 
     </header>

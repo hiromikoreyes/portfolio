@@ -5,6 +5,7 @@ import DescriptionBox from './components/DescriptionBox/DescriptionBox'
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import SkipArrow from './components/SkipArrow/skiparrow';
+import AboutMeBox from './components/AboutMeBox/aboutmebox';
 
 function App() {
   return (
@@ -40,9 +41,7 @@ function App() {
 
 
         <SkipArrow/>
-
-
-
+        <AboutMeBox/>
     </div>
   );
 }

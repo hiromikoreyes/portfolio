@@ -2,7 +2,7 @@
     text-align: center;
     color: white;
     font-size: xx-large;
-    background-color: rgba(2, 107, 30, 0.9);
+    background-color: rgba(2, 107, 30, 0.95);
     padding: 40px;
     width: 720px;
     font-size: x-large;
@@ -16,13 +16,12 @@
 }
 
 .body-container{
-    color: rgba(2, 107, 30, 0.9);
     background-color: white;
     text-align: center;
 }
 
 .super-container{
-    margin-top: 13rem;
+    margin-top: 12rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +39,7 @@
 
 /* BREAK POINT */
 @media(max-width: 768px){
+
     .title-container{
         width: 100%;
         font-size: large;
@@ -47,5 +47,9 @@
 
     .title-container p{
         font-size: 50px;
+    }
+
+    .super-container{
+        margin-top: 10rem;
     }
 }
