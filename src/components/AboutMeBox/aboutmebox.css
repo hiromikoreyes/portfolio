@@ -23,13 +23,15 @@
     padding:.25in;
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 16px;
     
 }
 
 .img-container img{
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    border: 2px dotted white;
+    border: 5px solid white;
     margin: 1rem;
 }
 
@@ -38,8 +40,11 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    font-weight: 200;
     overflow: auto;
+    font-weight: 200;
+
+
+    font-size: 16px;
 }
 
 .right-column .title{
@@ -70,7 +75,7 @@
         height: 200px;
     }
     .left-column{
-        font-size: 9px;
+        font-size: 16px;
     }
     
 }
