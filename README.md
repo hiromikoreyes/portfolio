@@ -1,5 +1,5 @@
 # FIRST REACT PROJECT
-hiromikoreyes.github.io/portfolio
+(https://hiromikoreyes.github.io/portfolio)
 ## GOALS
 - Have a 3D monkey that rotates in the z-axis
 - display some github repos
