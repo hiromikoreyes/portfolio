@@ -1,6 +1,6 @@
 .under-card{
     background: #096126;
-    padding: 8px;
+    padding: 12px 0 4px;
     text-align: center;
     color: white;
 }
@@ -8,8 +8,30 @@
 .under-card a{
     color: white;
 }
-.carousel img{
-    object-fit: contain;
-    width: 800px;
-    height: 600px;
+
+
+
+.carousel-img-holder{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+
 }
+
+
+.carousel-text-holder{
+
+    padding: 24px;
+    background-color: rgba(2, 107, 30, 0.95);
+
+    color: white;
+    font-size: large;
+    text-align: center;
+
+}
+
+.carousel-img-holder img{
+    height: 500px;
+    object-fit: scale-down;
+}
+

@@ -26,10 +26,10 @@ canvas{
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0 !important;
 }
 
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
   background: white;
 }
 ::-webkit-scrollbar-track {
@@ -43,5 +43,4 @@ canvas{
 
 ::-webkit-scrollbar-thumb:hover {
   background: #096126;
-}
-
+} */
