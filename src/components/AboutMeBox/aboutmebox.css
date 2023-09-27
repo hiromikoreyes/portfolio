@@ -5,18 +5,17 @@
     margin-top: 20rem;
     display: flex;
     justify-content: center;
-    margin-bottom: 20rem;
+    margin-bottom: 40rem;
     color: white;
-    
-
+    text-align: center;
 }
 
 .about-container{
     background-color: rgba(10, 134, 52, 0.8);
     border-radius: 20px;
-    width: 1200px;
+    width: 768px;
     display: flex;
-    box-shadow: 5px 10px rgb(2, 107, 30);
+    box-shadow: 5px 10px #026b1e;
 }
 
 .left-column{
@@ -42,8 +41,6 @@
     flex-direction: column;
     overflow: auto;
     font-weight: 200;
-
-
     font-size: 16px;
 }
 
@@ -67,6 +64,8 @@
     }
 
     .right-column{
+        margin-top: -24px;
+
         text-align: center;
     }
 

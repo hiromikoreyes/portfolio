@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/navbar';
 import Box from './components/Box/Box';
 import DescriptionBox from './components/DescriptionBox/DescriptionBox'
@@ -6,6 +7,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import SkipArrow from './components/SkipArrow/skiparrow';
 import AboutMeBox from './components/AboutMeBox/aboutmebox';
+import Projects from './components/Projects/projects';
 
 function App() {
   return (
@@ -35,13 +37,13 @@ function App() {
               <directionalLight position={[-2,5,2]} intensity={1}></directionalLight>
               <Box />
             </Canvas>
-
             </div>
         </div>
 
 
         <SkipArrow/>
         <AboutMeBox/>
+        <Projects/>
     </div>
   );
 }

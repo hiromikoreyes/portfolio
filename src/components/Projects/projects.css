@@ -1,0 +1,15 @@
+.under-card{
+    background: #096126;
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+
+.under-card a{
+    color: white;
+}
+.carousel img{
+    object-fit: contain;
+    width: 800px;
+    height: 600px;
+}
