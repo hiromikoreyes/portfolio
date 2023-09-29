@@ -12,7 +12,7 @@ function Projects(){
                 <a style={{backgroundColor: "#026b1e", padding: "12px 24px 24px", borderRadius: "24px"}}>projects</a>
             </div>
         
-            <Carousel style={{backgroundColor: "rgba(2, 107, 30, 1)"}} data-bs-theme="light">
+            <Carousel id="projects" style={{backgroundColor: "rgba(2, 107, 30, 1)"}} data-bs-theme="light" >
                 <Carousel.Item>
                     <div>
                         <div class="under-card">

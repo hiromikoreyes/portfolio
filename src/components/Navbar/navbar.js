@@ -1,5 +1,7 @@
 import React from "react";
 import './navbar.css'
+import { scrollToAbout, scrollToProjects, scrollToMusic, scrollToContact} from "../../scripts/navigation";
+
 
 function Navbar() {
   return (
@@ -24,10 +26,10 @@ function Navbar() {
         </label>
 
         <nav class="navbar">
-            <a href="#">about</a>
-            <a href="#">code</a>
-            <a href="#">music</a>
-            <a href="#">contact</a>
+            <a href="#about" onClick={scrollToAbout}>about</a>
+            <a href="#projects" onClick={scrollToProjects}>code</a>
+            <a href="#music" onClick={scrollToMusic}>music</a>
+            <a href="#contact" onClick={scrollToContact}>contact</a>
 
         </nav>
 
