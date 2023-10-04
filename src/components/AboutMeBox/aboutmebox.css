@@ -13,7 +13,7 @@
 .about-container{
     background-color: rgba(10, 134, 52, 0.8);
     border-radius: 20px;
-    width: 768px;
+    width: 992px;
     display: flex;
     box-shadow: 5px 10px #026b1e;
 }
