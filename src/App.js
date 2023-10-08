@@ -7,6 +7,7 @@ import { OrbitControls } from '@react-three/drei';
 import SkipArrow from './components/SkipArrow/skiparrow';
 import AboutMeBox from './components/AboutMeBox/aboutmebox';
 import Projects from './components/Projects/projects';
+import PageFooter from './components/Footer/footer';
 
 function App() {
   return (
@@ -43,6 +44,10 @@ function App() {
         <SkipArrow/>
         <AboutMeBox/>
         <Projects/>
+
+
+        <PageFooter/>
+
     </div>
   );
 }

@@ -1,0 +1,13 @@
+footer{
+    font-size: xx-large;
+    color: white;
+    background: #11AA44;
+    margin-top: 20rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: white;
+
+}
