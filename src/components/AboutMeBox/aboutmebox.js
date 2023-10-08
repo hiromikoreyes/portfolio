@@ -11,8 +11,11 @@ function AboutMeBox(){
 
                     <div class="below-img-container">
                         hobbies: coding, music, powerlifting
+
                         <br></br>
                         <div style={{fontSize: "10px"}}>
+                            email: hiromiko.reyes@mail.utoronto.ca
+
                             <br></br>
                             S: 315lbs x 2
                             <br></br>
