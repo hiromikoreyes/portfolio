@@ -1,0 +1,16 @@
+.info-text::after {
+    content: '2ND YEAR CS & MUSIC @ UOFT';
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .info-text:hover::after {
+    content: 'desperate for experience';
+    opacity: 1;
+    animation: blinker;
+  }
+
+@keyframes blinker {
+    50% {
+        opacity: 0.5;
+    }
+}

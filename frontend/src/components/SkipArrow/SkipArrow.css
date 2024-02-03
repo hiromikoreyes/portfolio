@@ -1,0 +1,27 @@
+.arrow-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+#down-arrow{
+    background-color: rgb(52, 52, 52);
+
+    margin-top: -10px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    animation: blinker 3s linear infinite;
+
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.5;
+    }
+}
