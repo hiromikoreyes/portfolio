@@ -6,11 +6,27 @@
   .info-text:hover::after {
     content: 'desperate for experience';
     opacity: 1;
-    animation: blinker;
+    animation: blinker 3s linear infinite;
+  }
+
+  .info-text{
+    opacity: 1;
+    animation: blinker 3s linear infinite;
+  }
+
+  .city-bg{
+    background-position-x: 100%;
+    animation: move 100s ease-in-out infinite;
   }
 
 @keyframes blinker {
     50% {
         opacity: 0.5;
     }
+}
+
+@keyframes move {
+  50% {
+      background-position-x: 0;
+  }
 }
