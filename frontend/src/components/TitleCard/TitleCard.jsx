@@ -7,7 +7,7 @@ import SkipArrow from '../SkipArrow/SkipArrow'
 function TitleCard() {
 
   return ( 
-    <div className="backdrop-blur-3xl city-bg" style={{backgroundImage: `url('https://assets.playgroundai.com/985d8118-90c7-4695-ab4f-aa9300316346.jpg')`}}>
+    <div className="backdrop-blur-3xl city-bg" style={{margin: 0, width: "100vw", backgroundImage: `url('https://assets.playgroundai.com/985d8118-90c7-4695-ab4f-aa9300316346.jpg')`}}>
     
     <marquee className="m-0 text-white" scrollamount="50" behavior="scroll" direction="left">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</marquee>
 
