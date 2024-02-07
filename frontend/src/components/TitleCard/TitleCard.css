@@ -10,14 +10,25 @@
   }
 
   .info-text{
+    width: 100%;
     opacity: 1;
+    font-size: x-large;
     animation: blinker 3s linear infinite;
   }
 
   .city-bg{
     background-position-x: 50%;
     background-repeat: repeat-x;
-    animation: move 100s ease-in-out infinite;
+    background-size: 36rem 36rem;
+    background-position-y: 50%;
+    object-fit: cover;
+    animation: move 90s ease-in-out infinite;
+    filter: contrast(160%) brightness(600%);
+  }
+
+  #text-box{
+    padding: 24px;
+    mix-blend-mode: hard-light;
   }
 
   .dark{

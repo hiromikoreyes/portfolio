@@ -12,16 +12,17 @@ function TitleCard() {
     const [linkedinBrightness, setLinkedinBrightness] = useState('dark');
 
   return ( 
-    <Container className="flex flex-col justify-center items-center city-bg"  style={{margin: 0, width: "100vw", backgroundImage: `url('https://assets.playgroundai.com/985d8118-90c7-4695-ab4f-aa9300316346.jpg')`}}>
+    <div className="flex flex-col justify-center items-center city-bg"  style={{margin: 0, height:"100vh ", width: "100vw", backgroundImage: `url('https://assets.playgroundai.com/985d8118-90c7-4695-ab4f-aa9300316346.jpg')`}}>
     
-        <marquee className="m-0 text-white" scrollamount="50" behavior="scroll" direction="left">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</marquee>
-
-        <div className="font-sans font-thin text-6xl mt-24 text-white">
+        
+        <div id="text-box" className='bg-red-800 flex flex-col justify-center items-center'>
+        <div className="font-sans font-thin text-9xl m-12 text-white">
             MIKO REYES
         </div>
         <div className="w-72 info-text font-sans font-thin text-sm text-white">
         </div>
 
+        <div className="flex flex-col justify-center items-center">
         <div className="flex m-4">
             <a onMouseEnter={() => setGithubBrightness('light')}
                 onMouseLeave={() => setGithubBrightness('dark')}
@@ -37,13 +38,12 @@ function TitleCard() {
             </a>
         </div>
 
+        </div>
+        </div>
+        <marquee className="m-0 text-white" scrollamount="50" behavior="scroll" direction="left">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</marquee>
         <marquee className="m-0 text-white" behavior="scroll"  scrollamount="20" direction="right">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</marquee>
 
-        <div style={{witdh: "1280px"}}>
-
-        </div>
-
-    </Container>
+    </div>
   )
 }
 
