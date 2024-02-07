@@ -20,11 +20,10 @@
     animation: move 100s ease-in-out infinite;
   }
 
-  .socials{
+  .dark{
     filter: brightness(0%);
   }
-
-  .socials:hover{
+  .light{
     filter: brightness(100%);
   }
 
