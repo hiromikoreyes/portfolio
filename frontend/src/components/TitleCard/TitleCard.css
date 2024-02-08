@@ -19,16 +19,17 @@
   .city-bg{
     background-position-x: 50%;
     background-repeat: repeat-x;
-    background-size: 36rem 36rem;
-    background-position-y: 50%;
-    object-fit: cover;
+    background-size: 100% 36rem;
+    background-position-y: 0;
+    object-fit: fill;
     animation: move 90s ease-in-out infinite;
     filter: contrast(160%) brightness(600%);
   }
 
   #text-box{
-    padding: 24px;
     mix-blend-mode: hard-light;
+    width: 100%;
+    height: 100%;
   }
 
   .dark{

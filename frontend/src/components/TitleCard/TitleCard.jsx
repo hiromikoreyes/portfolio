@@ -12,7 +12,8 @@ function TitleCard() {
     const [linkedinBrightness, setLinkedinBrightness] = useState('dark');
 
   return ( 
-    <div className="flex flex-col justify-center items-center city-bg"  style={{margin: 0, height:"100vh ", width: "100vw", backgroundImage: `url('https://assets.playgroundai.com/985d8118-90c7-4695-ab4f-aa9300316346.jpg')`}}>
+    <div className="flex flex-col p-0 justify-center items-center city-bg"
+                style={{margin: "1rem 0 0 0", height:"80vh", width: "100%", backgroundImage: `url('https://assets.playgroundai.com/985d8118-90c7-4695-ab4f-aa9300316346.jpg')`}}>
     
         
         <div id="text-box" className='bg-red-800 flex flex-col justify-center items-center'>
@@ -42,7 +43,7 @@ function TitleCard() {
         </div>
         <marquee className="m-0 text-white" scrollamount="50" behavior="scroll" direction="left">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</marquee>
         <marquee className="m-0 text-white" behavior="scroll"  scrollamount="20" direction="right">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</marquee>
-
+        {/* put marquee outside of div */}
     </div>
   )
 }
